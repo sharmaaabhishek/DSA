@@ -52,3 +52,66 @@
 #     else:print("Number is greater than 90")
 # else:
 #     print("Number is not greater than 1")
+
+
+# print numbers from 1 to n , take n from user as integer input
+
+# startNumber = 1
+# n = int(input("Enter number: "))
+
+# while n >= startNumber:
+#     print(startNumber)
+#     startNumber += 1
+
+# print numbers from n to 0 (Decreasing order) , take n from user as integaer input
+
+# n = int(input("Enter number: "))
+
+# while n >= 0:
+#     print(n)
+#     n -= 1
+
+# print all the even numbers between 1 and n.
+
+# n = int(input("Enter number: "))
+# startNumber = 1
+# while n >= startNumber:
+#     if startNumber % 2 == 0:
+#         print(startNumber)
+#     startNumber += 1
+
+# correct password is "skillians", ask user for the password untill he/she enters "skillians"
+
+# password = input("Enter Password: ")
+
+# while password != "skillians":
+#     print("Your entered password is wrong")
+#     password = input("Enter Password: ")
+
+# print("Access granted!")
+
+
+# print the sum from integers 1 to n
+
+# intStart = 1
+# n = int(input("Enter number: "))
+# total = 0
+
+# while intStart <= n:
+#     total += intStart
+#     intStart += 1
+
+# print("Sum from 1 to", n, "is:", total)
+
+# print multiplication of numbers from 1 to n.
+
+# startInt = 1
+# n = int(input("Enter number: "))
+# total = 1
+
+# while startInt <= n:
+#     total *= startInt
+#     startInt += 1
+# print("Multiplication from 1 to", n, "is:", total)
+
+# print all the numbers from 1 to n which are divisible by 5 and 3
