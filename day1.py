@@ -115,3 +115,18 @@
 # print("Multiplication from 1 to", n, "is:", total)
 
 # print all the numbers from 1 to n which are divisible by 5 and 3
+
+# startingNumber = 1
+# n = int(input("Enter number: "))
+
+# while startingNumber <= n:
+#     if startingNumber % 5 == 0 and startingNumber % 3 == 0:
+#         print(startingNumber)
+#     startingNumber += 1
+
+
+# miniGoal = ["getMarriedToPranjali", "Buy a own luxury house", "Always follow truth and dharm marg", "Helping the needy one"]
+
+# for goal in miniGoal:
+#     print(goal)
+
