@@ -63,7 +63,7 @@
 #     print(startNumber)
 #     startNumber += 1
 
-# print numbers from n to 0 (Decreasing order) , take n from user as integaer input
+# print numbers from n to 0 (Decreasing order) , take n from user as integer input
 
 # n = int(input("Enter number: "))
 
@@ -93,15 +93,16 @@
 
 # print the sum from integers 1 to n
 
-# intStart = 1
-# n = int(input("Enter number: "))
-# total = 0
+intStart = 1
+n = int(input("Enter number: "))
+total = 0
 
-# while intStart <= n:
-#     total += intStart
-#     intStart += 1
+while intStart <= n:
+    total += intStart
+    intStart += 1
 
-# print("Sum from 1 to", n, "is:", total)
+print("Sum from 1 to", n, "is:", total)
+print("Sum by formula is: ", (n*(n+1)//2))
 
 # print multiplication of numbers from 1 to n.
 
