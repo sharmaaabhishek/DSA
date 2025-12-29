@@ -93,16 +93,16 @@
 
 # print the sum from integers 1 to n
 
-intStart = 1
-n = int(input("Enter number: "))
-total = 0
+# intStart = 1
+# n = int(input("Enter number: "))
+# total = 0
 
-while intStart <= n:
-    total += intStart
-    intStart += 1
+# while intStart <= n:
+#     total += intStart
+#     intStart += 1
 
-print("Sum from 1 to", n, "is:", total)
-print("Sum by formula is: ", (n*(n+1)//2))
+# print("Sum from 1 to", n, "is:", total)
+# print("Sum by formula is: ", (n*(n+1)//2))
 
 # print multiplication of numbers from 1 to n.
 
@@ -117,13 +117,15 @@ print("Sum by formula is: ", (n*(n+1)//2))
 
 # print all the numbers from 1 to n which are divisible by 5 and 3
 
-# startingNumber = 1
-# n = int(input("Enter number: "))
+startingNumber = 1
+n = int(input("Enter number: "))
 
-# while startingNumber <= n:
-#     if startingNumber % 5 == 0 and startingNumber % 3 == 0:
-#         print(startingNumber)
-#     startingNumber += 1
+while startingNumber <= n:
+    if startingNumber % 5 == 0 and startingNumber % 3 == 0:
+        print(startingNumber)
+    startingNumber += 1
+
+print("Loop Ended")
 
 
 # miniGoal = ["getMarriedToPranjali", "Buy a own luxury house", "Always follow truth and dharm marg", "Helping the needy one"]
